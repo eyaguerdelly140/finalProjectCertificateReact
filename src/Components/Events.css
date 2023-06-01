@@ -1,0 +1,91 @@
+.image-container-events {
+  background-color: rgba(0, 0, 0, 0.795);
+}
+
+.line1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Ajout de flex-wrap pour gérer les sauts de ligne */
+}
+
+.imgc {
+  position: relative; /* Ajout de position relative pour contenir les éléments enfants */
+}
+
+.img1 {
+  height: 270px;
+  width: 220px;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.img1:hover {
+  opacity: 0.6;
+}
+
+.readMore {
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  background-color: #180614;
+  border: none;
+  cursor: pointer;
+  color: #642e58;
+  font-weight: 600;
+  margin-top: -2px;
+  margin-left: -140px;
+  margin-bottom: 15px;
+}
+
+.readMore.active {
+  background-color: #642e58;
+  color: #180614;
+}
+
+.readMoreContainer {
+  height: 230px;
+  width: 185px;
+  background-color: rgba(100, 46, 88, 0.795);
+  color: #180614;
+  position: absolute; /* Utilisation de position absolue pour superposer le conteneur */
+  top: 60px; /* Ajustement de la valeur top pour aligner avec l'image */
+  left: -10%;
+  z-index: 7;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s ease-in-out;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.readMoreContainer p {
+  padding: 10px;
+  margin: 0;
+}
+
+.readMore.active + .readMoreContainer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.rm {
+  margin-bottom: 60px;
+}
+
+.eventName {
+  margin-bottom: 10px;
+  color: #d645ca;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 30px;
+}
+
+.titleOurEvents{
+  font-size: 40px;
+ 
+  padding-top: 20px;
+}
+
+  

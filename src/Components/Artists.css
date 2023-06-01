@@ -1,0 +1,62 @@
+.artistC{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+.titleOurArtists{
+    color: #180614;
+    font-size:40px;
+    padding-top: 20px;
+  }
+  .imgA{
+    height: 200px;
+    width: 270px;
+    border-radius: 8px;
+    margin-right: 25px;
+  }
+  .line11{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .scrollButton{
+    border-radius: 5px;
+  width: 50px;
+  height: 33px;
+  background-color: #180614;
+  border: none;
+  cursor: pointer;
+  color: #642e58;
+  font-weight: 800;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  }
+  .imgA:hover{
+    opacity: 0.7;
+  }
+  .artistName{
+   
+    font-size: 20px;
+  }
+   .viewMore{
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  color: #180614;
+  border: none;
+  cursor: pointer;
+  background-color: #642e58;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 550px;
+  margin-bottom: 15px;
+  
+}
+.viewMore.active {
+  color: #642e58;
+  background-color: #180614;
+} 
+ 
+ 

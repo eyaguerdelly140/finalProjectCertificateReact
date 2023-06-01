@@ -1,0 +1,51 @@
+.counter {
+    justify-content: center;
+    padding-left: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    
+    color: rgba(0, 0, 0,0.7);
+    padding-bottom: 8px;
+  }
+  
+  .counter-item {
+    text-align: center;
+    padding-right: 70px;
+    
+  }
+  
+  .counter-value {
+    font-size: 48px;
+    font-weight: bold;
+   
+    
+  }
+  
+  .counter-label {
+    font-size: 20px;
+   margin-top: -40px;
+   font-weight: 600;
+  
+  } 
+  .touchTheBody{
+   color: #D14D72;
+   padding-top: 20px;
+   
+  }
+  .secondPartAboutUs{
+    display: flex;
+    margin-top: 180px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 450px;
+    background-color: #fff2f4;
+  }
+  .p1{
+    font-size: 45px;
+}
+.titleC{
+  margin-top: 30px;
+  color:rgba(0, 0, 0,0.7);
+  font-size: 30px;
+  font-weight: 600;
+}
